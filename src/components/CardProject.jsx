@@ -6,7 +6,7 @@ import { toSlug } from "../utils/slug";
 const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
   const handleLiveDemo = (e) => {
     if (!ProjectLink) {
-      console.log("ProjectLink kosong");
+      console.log("ProjectLink Empty");
       e.preventDefault();
       alert("Live demo link is not available");
     }
@@ -14,7 +14,7 @@ const CardProject = ({ Img, Title, Description, Link: ProjectLink, id }) => {
 
   const handleDetails = (e) => {
     if (!id) {
-      console.log("ID kosong");
+      console.log("ID Empty");
       e.preventDefault();
       alert("Project details are not available");
     }

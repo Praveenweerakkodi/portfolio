@@ -218,7 +218,7 @@ const AboutPage = () => {
               data-aos="fade-right"
               data-aos-duration="1500"
             >
-              Hi! I’m a Software Engineering student passionate about building modern web applications and learning new technologies. I enjoy working with React and full-stack tools to create clean, user-friendly digital experiences. I’m always exploring new ideas, improving my skills, and turning concepts into real projects. Let’s connect and build something great! 🚀
+              Hi! I’m a Software Engineering student passionate about building modern web applications and learning new technologies. I’m always exploring new ideas, improving my skills, and turning concepts into real projects. Let’s connect and build something great! 🚀
             </p>
 
             {/* Quote Section */}
