@@ -33,7 +33,7 @@ const LandingPage = ({ showWelcome, setShowWelcome }) => {
       {!showWelcome && (
         <>
           <Navbar />
-      
+
           <Home />
           <About />
           <Suspense fallback={<div className="h-20" />}>
@@ -60,12 +60,12 @@ function App() {
   const [showWelcome, setShowWelcome] = useState(true);
 
   return (
-    
+
     <HelmetProvider>
       <div className="pointer-events-none">
-  <AnimatedBackground />
-</div>
-      <BrowserRouter basename={import.meta.env.BASE_URL} future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+        <AnimatedBackground />
+      </div>
+      <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <Routes>
           {/* PUBLIC */}
           <Route
