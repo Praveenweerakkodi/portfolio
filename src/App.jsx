@@ -65,7 +65,7 @@ function App() {
       <div className="pointer-events-none">
   <AnimatedBackground />
 </div>
-      <BrowserRouter future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+      <BrowserRouter basename={import.meta.env.BASE_URL} future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
         <Routes>
           {/* PUBLIC */}
           <Route
