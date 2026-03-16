@@ -193,7 +193,7 @@ const ProjectDetails = () => {
             "author": {
               "@type": "Person",
               "name": "Praveen Weerakkodi",
-              "url": "https://praveenweerakkodi.vercel.app/"
+              "url": "https://praveenstack.gt.tc"
             }
           }
         `}</script>
