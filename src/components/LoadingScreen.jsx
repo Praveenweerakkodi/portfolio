@@ -2,7 +2,7 @@ import React from 'react';
 
 const LoadingScreen = () => {
   return (
-    <div className="min-h-screen bg-[#030014] flex items-center justify-center">
+    <div className="min-h-[100dvh] bg-[#030014] flex items-center justify-center">
       <div className="relative">
         <div className="absolute -inset-4 bg-gradient-to-r from-[#6366f1] to-[#a855f7] rounded-full opacity-20 blur-2xl animate-pulse"></div>
         <div className="relative flex flex-col items-center gap-4 p-8">
